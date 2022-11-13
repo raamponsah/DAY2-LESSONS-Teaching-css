@@ -16,7 +16,7 @@ using units: px, vh, vw, em, rem, %, etc.
 */
 
 body{
-    background-color:purple;
+  
     margin:0 auto;
     width:600px;
 }
@@ -24,7 +24,7 @@ body{
 section{
     width:500px;
     height:500px;
-    background-color:pink;
+    background-color:#eeeeee;
 
     /* Margin */
     margin-top:50px;
@@ -38,11 +38,7 @@ section{
     padding-right:20px;
     padding-bottom:20px;
     
-    /* Border */
-    border-width:5px;
-    border-color:aquamarine;
-    border-style:solid; /*solid, dotted, dashed, double, groove, ridge, inset, outset*/
-
+ 
 
     /* Font */
     font-size:18px;
@@ -75,9 +71,9 @@ header nav ul li{
 }
 /* We are being specific */
 header nav ul li a{
-    color:white;
+   
     text-decoration:none;
-    background:purple;
+    
     /* padding-top:10px;
     padding-bottom:10px;
     padding-left:20px;
@@ -100,11 +96,14 @@ header nav ul li a{
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px; */
-    border-radius:10px;
+    /* border-radius:10px; */
     /* border-width:5px;
     border-color:yellow;
     border-style:solid; */
-    border:5px solid yellow; 
+    /* border:5px solid yellow;  */
+    color:blueviolet;
+    font-family: 'Nunito', sans-serif;
+
 
     
 }
@@ -125,6 +124,8 @@ flexbox, grid, etc.
 
 header h1{
     float:left;
+    font-family: 'Lobster', cursive;
+    color:pink;
  
 }
 
