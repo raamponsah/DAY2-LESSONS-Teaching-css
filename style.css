@@ -63,12 +63,18 @@ section h1{
 
 section ul{
     list-style:none;
+  
+
 }
 
 
 
+header nav ul li{
+    display:inline-block;
+    margin-right:50px;
+}
 /* We are being specific */
-section ul li a{
+header nav ul li a{
     color:white;
     text-decoration:none;
     background:purple;
@@ -88,8 +94,8 @@ section ul li a{
     margin-left: -40px; */
     margin:10px 0px 10px -40px;
 
-    display:block;
-    width:120px;
+    display:inline-block;
+
     /* border-top-left-radius: 10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -101,6 +107,34 @@ section ul li a{
     border:5px solid yellow; 
 
     
+}
+
+/* Layouts in CSS 
+we can layout the HTML document using the display property
+using the display property we can set the display to be
+display: block or inline or inline-block
+float, clear, position, z-index, etc.
+float:left or right;
+clear:both;
+position: relative or absolute or fixed;
+new css layout techniques
+flexbox, grid, etc.
+
+*/
+
+
+header h1{
+    float:left;
+ 
+}
+
+header nav{
+    float:right;
+    
+}
+
+section{
+    clear:both;
 }
 
 
