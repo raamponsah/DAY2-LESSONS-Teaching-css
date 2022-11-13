@@ -1,0 +1,88 @@
+/* 
+Styling HTML document
+In styling there are different forms of selectors
+and styles that can be applied to the HTML document.
+we can style the width, height, color, background-color,
+font-size, font-family, font-weight, font-style, text-align,
+text-decoration, border, padding, margin, display, position,
+float, clear, overflow, visibility, cursor, z-index, etc.
+margin, padding, border, and background-color are the most
+*/
+
+/* Units of measurements
+On the computer we measure images, and items in px
+Now with css, we can measure the width, height, font-size, etc.
+using units: px, vh, vw, em, rem, %, etc.
+*/
+
+body{
+    background-color:purple;
+}
+
+section{
+    width:500px;
+    height:500px;
+    background-color:pink;
+
+    /* Margin */
+    margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+
+    /* Padding */
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    
+    /* Border */
+    border-width:5px;
+    border-color:aquamarine;
+    border-style:solid; /*solid, dotted, dashed, double, groove, ridge, inset, outset*/
+
+
+    /* Font */
+    font-size:18px;
+    color:black;
+    font-family: 'Cambria', 'Arial'; /*Cambria can load but if it is not in the system, then
+    it will load the Arial font*/
+
+}
+
+h1{
+    color:white;
+}
+
+/* We are being specific */
+section h1{
+    color:deeppink;
+}
+
+section ul{
+    list-style:none;
+}
+
+
+
+/* We are being specific */
+section ul li a{
+    color:white;
+    text-decoration:none;
+    background:black;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    margin-left: -40px;
+    display:block;
+    width:120px;
+    
+}
+
+
+
+
+
