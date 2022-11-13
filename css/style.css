@@ -1,0 +1,104 @@
+
+body{
+  
+    margin:0 auto;
+    width:800px;
+}
+
+section{
+    min-width:500px;
+    height:auto;
+    background-color:#eeeeee;
+
+    /* Margin */
+  
+
+    padding:10px 20px;
+    /* Font */
+    font-size:18px;
+    color:black;
+    font-family: 'Nunito', sans-serif; 
+
+}
+
+
+/* We are being specific */
+section h1{
+    color:deeppink;
+    font-family: 'Nunito', sans-serif; 
+}
+
+section ul{
+    list-style:none;
+  
+
+}
+
+
+
+header nav ul li{
+    display:inline-block;
+    margin-right:50px;
+}
+
+header nav ul li a{
+   
+    text-decoration:none;
+    padding:10px 20px 10px 10px; 
+    margin:10px 0px 10px -40px;
+    display:inline-block;
+    color:blueviolet;
+    font-family: 'Nunito', sans-serif;  
+}
+
+
+
+header h1{
+    float:left;
+    font-family: 'Lobster', cursive;
+    color:deeppink;
+ 
+}
+
+header nav{
+    float:right;
+    
+}
+
+section{
+    clear:both;
+}
+
+
+section.special-section{
+    background-color:lightblue;
+}
+
+.green{
+    color:green;
+}
+
+.hugo{
+    color:deeppink;
+}
+
+
+img.banner{
+    width:100%;
+    padding:10px;
+    border-radius: 40px;
+    box-shadow:5px 10px 15px #888;
+}
+
+video{
+    width:100%;
+    padding:10px;
+    border-radius: 40px;
+    box-shadow:5px 10px 15px #888;
+}
+
+h1#logo{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
