@@ -96,3 +96,9 @@ video{
     border-radius: 40px;
     box-shadow:5px 10px 15px #888;
 }
+
+h1#logo{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
