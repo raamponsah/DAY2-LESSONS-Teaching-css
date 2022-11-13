@@ -17,6 +17,8 @@ using units: px, vh, vw, em, rem, %, etc.
 
 body{
     background-color:purple;
+    margin:0 auto;
+    width:600px;
 }
 
 section{
@@ -69,17 +71,35 @@ section ul{
 section ul li a{
     color:white;
     text-decoration:none;
-    background:black;
-    padding-top:10px;
+    background:purple;
+    /* padding-top:10px;
     padding-bottom:10px;
     padding-left:20px;
-    padding-right:20px;
-    margin-bottom:10px;
+    padding-right:20px; */
+    /* padding:10px 20px ==> (top, bottom) (left,right) */
+    /* padding:10px 20px 10px;; */
+    /*top, right, bottom, left*/
+    padding:10px 20px 10px 10px; 
+    
+
+    /* Display */
+    /* margin-bottom:10px;
     margin-top: 10px;
-    margin-left: -40px;
+    margin-left: -40px; */
+    margin:10px 0px 10px -40px;
+
     display:block;
     width:120px;
-    
+    /* border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px; */
+    border-radius:10px;
+    /* border-width:5px;
+    border-color:yellow;
+    border-style:solid; */
+    border:5px solid yellow; 
+
     
 }
 
